@@ -3,7 +3,7 @@ library(Synth)
 oblasts_data <- read.csv("/Users/marinaberdikhanova/Downloads/Capstone_Data - Compiled_Dataset.csv")
 dataprep.out <- dataprep(
   foo = oblasts_data,
-  predictors = c("Number_of_Schools_City", "New_Schools",	“Number_of_Schools_Rural”, “Number_of_Students_Rural”, “Students_per_Teacher”,“Percent_of_Students_Covered_City”, “Percent_of_Students_Covered_Rural”, “Total.City”),
+  predictors = c("Number_of_Schools_City", "New_Schools",	"Number_of_Schools_Rural”, “Number_of_Students_Rural", "Students_per_Teacher","Percent_of_Students_Covered_City", "Percent_of_Students_Covered_Rural", "Total.City"),
   predictors.op = "aggregate",
   time.predictors.prior = 2014:2019,
   special.predictors = list(
