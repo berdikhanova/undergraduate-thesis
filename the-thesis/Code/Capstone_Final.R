@@ -37,6 +37,7 @@ new_df = subset(df, select = c(Region_ID,
 # Summary Statistics
 stat.desc(new_df)
 
+# Removing an outlier 
 new_df <- new_df[new_df$Region != "Atyrau",]
 
 data <- data.table(new_df)
@@ -53,6 +54,8 @@ teachers <- matrix(new_df$Number_of_Teachers/10000, nrow = N, ncol = T)
 
 # Combining the transformed covariates into a 3D array
 covariates <- array(c(population_city, new_schools, teachers, number_of_schools, number_of_students), dim = c(N, T, 3))
+
+# The main package for the SDID analysis (synthdid) was developed by Arkhangelsky and colleagues (2019), and the code uses the basic library functions as provided by the examples
 
 # Converting a long panel to a wide matrix
 setup <- 
