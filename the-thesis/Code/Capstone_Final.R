@@ -2,13 +2,11 @@
 # Date: February 2023
 # Author: Marina Berdikhanova
 #
-#Datasets used: 
-#                    - DataAstana.csv
-# Key variables:
-#                		 - Region 
-# 		          		 - Year
-#			            	 - Treatment (whether the region underwent the transition) 
-#			            	 - % of students scoring below the national threshold 
+# Datasets used:     - DataAstana.csv    
+# Key variables:     - Region 
+#                    - Year
+#                    - Treatment (whether the region underwent the transition) 
+#                    - % of students scoring below the national threshold 
 #                    - Urban population
 #                    - The number of public schools in the urban areas
 #                    - The number of students living in the urban areas
