@@ -2,9 +2,10 @@
 # Date: February 2023
 # Author: Marina Berdikhanova
 #
-#
-# Datasets used:     - DataAstana.csv
-# Key variables: 		 - Region 
+#Datasets used: 
+#                    - DataAstana.csv
+# Key variables:
+#                		 - Region 
 # 		          		 - Year
 #			            	 - Treatment (whether the region underwent the transition) 
 #			            	 - % of students scoring below the national threshold 
