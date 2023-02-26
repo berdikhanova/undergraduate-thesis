@@ -35,6 +35,7 @@ Due to inconsistency in data reporting, many other educational programs initiate
 | /data| Raw Data from Kazakhstan's Ministry of Education |
 | /Final_Data/DataAstana.csv| The compiled dataset used in the analysis |
 | /code/Capstone_Final.R| Code for SDID, SC, and DID estimators, and Sensitivity Analyses |
+| /code/Capstone_DiD.ipynb| Code for DiD Analysis in Python |
 
 
 ## License
