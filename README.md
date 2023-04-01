@@ -13,7 +13,7 @@ Despite the government’s report of the program's positive effect on student ou
 ## Abstract
 
 ### Importance 
-Kazakhstan’s Ministry of Education been implementing numerous educational programs in the past decade to improve the quality of education and increase student scores on international assessments like PISA and TIMSS. However, there is little to no empirical evidence to support these programs and justify the allocated million-dollar budget apart from success in the low-scale pilot studies. 
+Kazakhstan's Ministry of Education has been implementing numerous educational programs in the past decade to improve the quality of education and increase student scores on international assessments like PISA and TIMSS. However, there is little to no empirical evidence to support these programs and justify the allocated million-dollar budget apart from the success of the low-scale pilot studies in the top-performing schools. 
 ### Objective 
 To evaluate the impact of the shift to per capita funding in the city of Astana using a quasi-experimental design and publicly available data, controlling for confounding variables across regions.   
 ### Design, Setting and Units of Analysis 
@@ -25,7 +25,7 @@ The study uses UNT examination scores (specifically, the number of students who 
 ### Results 
 The results from all three methods (DID, SC, SDID) show no impact of the program on student UNT scores (coefficients 0.04, 0.03, respectively). The sensitivity analyses showed the model’s sensitivity to covariates.
 ### Limitations 
-Due to inconsistency in data reporting, many other educational programs initiated by the government simultaneously, and possible lagged effects of the policy, the study only lays the foundation for further analyses for impact evaluation. It will benefit from using scores from international examinations after sufficient time has passed. 
+Due to inconsistency in data reporting, numerous other educational programs initiated by the government simultaneously, and possible lagged effects of the policy, the current study only lays the foundation for further analyses for impact evaluation. Future studies will significantly benefit from using scores from international examinations after sufficient time has passed.  
 
 ## Repository Structure
 
@@ -35,7 +35,6 @@ Due to inconsistency in data reporting, many other educational programs initiate
 | /data| Raw Data from Kazakhstan's Ministry of Education |
 | /Final_Data/DataAstana.csv| The compiled dataset used in the analysis |
 | /code/Capstone_Final.R| Code for SDID, SC, and DID estimators, and Sensitivity Analyses |
-| /code/Capstone_DiD.ipynb| Code for DiD Analysis in Python |
 
 
 ## License
